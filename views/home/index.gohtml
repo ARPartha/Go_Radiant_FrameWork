@@ -1,0 +1,13 @@
+{{define "head"}}
+    <style>
+        .hello{ color: navy;}
+        hr{ border: 1px #ccc dashed;}
+    </style>
+{{end}}
+
+
+{{define "content"}}
+    <h1 class="hello">Framework: {{.Framework}} {{.Version}}</h1>
+    <hr>
+
+{{end}}

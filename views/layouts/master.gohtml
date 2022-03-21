@@ -1,0 +1,16 @@
+<!-- /views/admin/master.html -->
+<!doctype html>
+
+<html  lang="en">
+    <head>
+        <title>{{.title}}</title>
+        <link rel="stylesheet" href="/static/css/main.css?h={{.AssetHash}}" />
+        {{template "head" .}}
+    </head>
+
+    <body>
+        {{template "content" .}}
+        <hr>
+        {{include "layouts/footer"}}
+    </body>
+</html>

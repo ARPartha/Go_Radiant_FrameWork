@@ -1,0 +1,30 @@
+Server:
+  AppMode: development
+  Host: 0.0.0.0:8082
+  ErrorInHTML: true
+  LanguageRedirect: true
+  Swagger: false
+
+Database:
+  DB_USERNAME: postgres
+  DB_PASSWORD: 1234
+  DB_PORT: 5432
+  DB_HOST: localhost
+  DB_NAME: user
+
+Error:
+  Debug: true
+  SentryCall: true
+  SentryDSN: "xxxxxxxx"
+
+Asset:
+  hash: yourHash
+
+SiteAllowance:
+  default: false
+
+Sites:
+  allowedsite: [varoom, bedroomvillas, rentbyowner, hotala]
+
+Language:
+  allowedlanguage: ["en-US", "fr-FR",]
